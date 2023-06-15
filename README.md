@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Initial project
+I used sail for set up larave project. 
+- composer install
+- php artisan migrate
+- artisan db:seed --class=DatabaseSeeder
+- ./vendor/bin/sail up
+
+please check PMA default host is http://0.0.0.0:8001/
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -65,5 +74,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-
-artisan db:seed --class=DatabaseSeeder
